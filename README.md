@@ -3,3 +3,7 @@ Lekan Ojulowo is a full stack developer dedicated to meet all your software need
 add me
 first name: Bello
 Last NAme: Hadi
+
+first name: Osas
+Last NAme: G Nosa
+
