@@ -18,5 +18,20 @@
     
     <p>Contact: <br> 07069718643 <br> lekanojulowo@gmail.com.
    </p> 
+    
+    <p>Teamwork Api: <span id="api-res"></span>
+   </p> 
+    
+    <script>
+        try {
+  const response = await fetch('https://teamworkbackend.herokuapp.com/')
+  const books = await response.json()
+document.querySelector("#api-res").textContent = books;
+  console.log(books)
+} catch (error) {
+  console.log(error)
+    document.querySelector("#api-res").textContent = error;
+}
+    </script>
 </body>
 </html>
