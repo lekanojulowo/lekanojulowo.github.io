@@ -23,15 +23,18 @@
    </p> 
     
     <script>
+        async function getMsg(){
         try {
-  const response = await fetch('https://teamworkbackend.herokuapp.com/')
-  const books = await response.json()
-document.querySelector("#api-res").textContent = books;
-  console.log(books)
-} catch (error) {
-  console.log(error)
-    document.querySelector("#api-res").textContent = error;
-}
+          const response = await fetch('https://teamworkbackend.herokuapp.com/')
+          const books = await response.json()
+        document.querySelector("#api-res").textContent = books;
+          console.log(books)
+        } catch (error) {
+          console.log(error)
+            document.querySelector("#api-res").textContent = error;
+        }
+        }
+        getMsg();
     </script>
 </body>
 </html>
