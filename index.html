@@ -26,8 +26,8 @@
         async function getMsg(){
         try {
           const response = await fetch('https://teamworkbackend.herokuapp.com/');
-          const books = await response.json();
-        document.querySelector("#api-res").textContent = books;
+          const ans = await response.json();
+        document.querySelector("#api-res").textContent = ans.msg ;
           //console.log(books)
         } catch (error) {
           //console.log(error)
