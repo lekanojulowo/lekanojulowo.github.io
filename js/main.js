@@ -22,7 +22,6 @@ const loadImage = (id, targetId) => {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  $q('#subscribe').focus();
   loadImage('wallpaper');
   loadImage('pictureImage', 'picture');
 });
