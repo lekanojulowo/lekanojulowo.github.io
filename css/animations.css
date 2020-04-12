@@ -173,5 +173,13 @@
 }
 
 .social li:nth-child(5) {
-  animation-delay: 1000ms;
+  animation-delay: 1s;
+}
+
+.social li:nth-child(6) {
+  animation-delay: 1.1s;
+}
+
+.social li:nth-child(7) {
+  animation-delay: 1.2s;
 }
