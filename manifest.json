@@ -1,11 +1,11 @@
 {
-  "short_name": "cssMaster",
-  "name": "css master",
+  "short_name": "Lekan Ojulowo",
+  "name": "Lekan Ojulowo",
   "start_url": "index.html",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#5f45bb",
-  "description": "learn and master css",
+  "description": "I am a fullstack developer who help startups and organization to grow",
   "icons": [{
       "src": "images/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
